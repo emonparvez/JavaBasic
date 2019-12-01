@@ -26,13 +26,29 @@ public class ExceptionHandling {
 
         
             
+//        int i=10;
+//        int p=0;
+//        int result = i/p;
+//            
+//        System.out.println("The result is : " +result);
+//
+
+        try{
         
-            
+        int i=10;
+        int p=0;
+        int result = i/p;
+            System.out.println("The result is : " +result);
         
+    }
+        catch(Exception e){
+            //System.out.println(e);
+            System.out.println("WE CAN NOT DIVIDE INT BY ZERO");
+        }
 
 
-
-
+        System.out.println("This is Hudai Line");
+        
 
 
 
